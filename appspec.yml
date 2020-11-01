@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /home/ubuntu/python_project
 permissions:
-  - object: /home/ubuntu
+  - object: /home/ubuntu/python_project
     owner: root
     mode: 777
     type:

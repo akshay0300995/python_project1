@@ -1,1 +1,1 @@
-sudo touch file2.txt
+/home/ubuntu/python_project/python new.py
