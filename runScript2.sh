@@ -1,4 +1,5 @@
 #cd /home/ubuntu/python_project
 #python new.py
 
-sudo /home/ubuntu/touch fileabc.txt 
+sudo cd  /home/ubuntu
+sudo touch fileabc.txt 
