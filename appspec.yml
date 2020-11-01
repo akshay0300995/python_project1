@@ -20,11 +20,11 @@ hooks:
       runas: ubuntu
   ApplicationStart:
     - location: runScript2.sh
-    - location: runScript3.sh
+    
       timeout: 300
       runas: ubuntu
   ApplicationStop:
-    - location: runScript1.sh
+    - location: runScript3.sh
       timeout: 300
       runas: ubuntu
  
