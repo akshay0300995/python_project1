@@ -1,1 +1,1 @@
-sudo touch file3.txt
+sudo nohup python /home/ubuntu/python_project/new.py
