@@ -4,4 +4,4 @@ if [[ "" !=  "$PID" ]]; then
   echo $PID
   kill -9 $PID
 fi
-nohup python /home/ubuntu/python_project.py
+nohup python /home/ubuntu/python_project/new.py
