@@ -1,1 +1,2 @@
-/home/ubuntu/python_project/python new.py
+cd /home/ubuntu/python_project
+python new.py
