@@ -1,1 +1,2 @@
-touch file.txt
+sudo touch file.txt
+
