@@ -4,4 +4,4 @@ if [[ "" !=  "$PID" ]]; then
   sudo echo $PID
    sudo kill -9 $PID
 fi
-sudo nohup python /home/ubuntu/python_project/new.py
+sudo screen -m -d python /home/ubuntu/python_project/new.py
