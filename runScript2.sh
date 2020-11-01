@@ -1,7 +1,7 @@
-PID=`ps -eaf | grep 5000 | grep -v grep | awk '{print $2}'`
+sudo PID=`ps -eaf | grep 5000 | grep -v grep | awk '{print $2}'`
 if [[ "" !=  "$PID" ]]; then
-  echo "killing $PID"
-  echo $PID
-  kill -9 $PID
+  sudo echo "killing $PID"
+  sudo echo $PID
+   sudo kill -9 $PID
 fi
-nohup python /home/ubuntu/python_project/new.py
+sudo nohup python /home/ubuntu/python_project/new.py
