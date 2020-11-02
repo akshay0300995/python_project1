@@ -1,1 +1,1 @@
-sudo touch file1.txt
+sudo echo script1
