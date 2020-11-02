@@ -1,2 +1,2 @@
-sudo touch file.txt
+sudo echo script
 
